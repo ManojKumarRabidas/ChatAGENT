@@ -169,7 +169,7 @@ export default function ChatPage() {
 
   return (
     <div className="container my-5 d-flex align-items-center justify-content-center" style={{ minWidth: "100vw" }}>
-      <div className="card shadow-sm" style={{ maxWidth: "90vw" }}>
+      <div className="card shadow-sm" style={{ width: "90vw" }}>
         <div className="card-header bg-primary text-white">
           <h4 className="mb-0">ChatBOT for your assitance</h4>
         </div>
