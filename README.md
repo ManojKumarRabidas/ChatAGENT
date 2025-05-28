@@ -1,4 +1,9 @@
 # ChatAGENT
+Prerequisite 
+• Install Python, virtualenv
+• Install MySQL (or Dockerized)
+• Install Ollama (local LLM)
+
 move to C:\Users\username\project-name using cd C:\Users\username\project-name
 execute - .venv\Scripts\activate.bat
 execute - ollama serve
