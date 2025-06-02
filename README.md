@@ -60,7 +60,7 @@ Download and install from: https://ollama.com/download
 ### 2. Pull a Model
 
 ```bash
-ollama pull qwen:latest
+ollama pull qwen:latest [model i have used: "qwen2.5:0.5b"]
 ```
 
 ### 3. Ollama Default Endpoint

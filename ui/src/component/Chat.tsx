@@ -91,33 +91,10 @@ export default function ChatPage() {
           ))}
           <div ref={bottomRef} />
         </div>
-        <div className="card-footer bg-white">
-          <textarea
-            className="form-control"
-            rows={2}
-            placeholder="Type your message..."
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyDown={handleKeyDown}
-            disabled={loading}
-          />
-          <button
-            className="btn btn-primary mt-2 w-100"
-            onClick={sendMessage}
-            disabled={loading || !input.trim()}
-          >
-            {loading ? (
-              <>
-                <span
-                  className="spinner-border spinner-border-sm me-2"
-                  role="status"
-                  aria-hidden="true"
-                ></span>
-                Generating...
-              </>
-            ) : (
-              "Send"
-            )}
+        <div className="card-footer bg-white d-flex align-items-end">
+          <textarea className="form-control me-2" rows={2} placeholder="Type your message..." value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={handleKeyDown} disabled={loading} />
+          <button style={{maxHeight: "fit-content"}} className="btn btn-primary ms-2 w-20 d-flex align-items-center justify-content-center" onClick={sendMessage} disabled={loading || !input.trim()}>
+            {loading ? ( <><span className="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true" ></span> Loading... </> ) : ( "Send" )}
           </button>
         </div>
       </div>
