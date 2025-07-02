@@ -14,8 +14,8 @@ This is a full-stack AI chatbot application that integrates:
 ### 1. Clone the Project
 
 ```bash
-git clone https://github.com/your-username/mern-ai-project.git
-cd mern-ai-project
+git clone https://github.com/your-username/chatAGENT.git
+cd chatAGENT
 ```
 
 ### 2. Create Virtual Environment
@@ -41,6 +41,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ```bash
 pip install -r requirements.txt
+
 ```
 
 ### 5. Start FastAPI Server

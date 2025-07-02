@@ -1,3 +1,6 @@
 openai
 python-dotenv
 aiomysql
+fastapi[all]
+uvicorn
+
